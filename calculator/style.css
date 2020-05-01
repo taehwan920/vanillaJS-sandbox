@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: black;
+  }
+  
+  main {
+    width: 700px;
+    height: 400px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    opacity: 0.7;
+  }
+  
+  .btn {
+    margin-top: 5px;
+    width: 162.5px;
+    height: 70px;
+    border-radius: 15px;
+    border: 1px solid #363439;
+    color: white;
+    font-size: 28px;
+  }
+  
+  .result-btn {
+    width: 510px;
+    padding: 0px 20px;
+    background: black;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: right;
+  }
+  
+  .zero-btn {
+    width: 337px;
+    background: #363439;
+  }
+  
+  .num-btn {
+    background: #363439;
+  }
+  
+  .process-btn {
+    background: #fe8e00;
+  }
+  
+  .c-btn {
+    background: #aaa9b1;
+  }
+  
